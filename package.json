@@ -2,9 +2,12 @@
   "name": "test1",
   "version": "1.0.0",
   "description": "리드미",
-  "main": "index.js",
+
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+
   },
   "repository": {
     "type": "git",
@@ -17,10 +20,9 @@
   },
   "homepage": "https://github.com/kangcodeis/TEST1#readme",
   "dependencies": {
-    "chokidar": "^3.5.3",
+
     "express": "^4.17.3",
-    "mysql2": "^2.3.3",
-    "nunjucks": "^3.2.3",
-    "dev":"nodemon server"
+    "nunjucks": "^3.2.3"
+
   }
 }
