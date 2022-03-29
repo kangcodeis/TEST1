@@ -1,0 +1,26 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "리드미",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangcodeis/TEST1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kangcodeis/TEST1/issues"
+  },
+  "homepage": "https://github.com/kangcodeis/TEST1#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "nunjucks": "^3.2.3",
+    "dev":"nodemon server"
+  }
+}
